@@ -1,0 +1,10 @@
+{
+    "extends": [
+      "html-validate:recommended"
+    ],
+  
+    "rules": {
+      "close-order": "error",
+      "form-dup-name": ["error", {"shared": ["checkbox"]}]
+    }
+  }
